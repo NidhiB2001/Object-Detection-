@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(1) # if use built in camera then here 0 instead of 1 and 1 if more cameras options 
 whT = 320
 confThreshold = 0.5
 nmsThreshold = 0.3
